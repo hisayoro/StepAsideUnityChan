@@ -73,12 +73,12 @@ public class ItemGenerator : MonoBehaviour
     {
 
 
-        for (int i = 0; i < goalPos; i+= 1000)
+        for (int i = 0; i < goalPos; i++)
         {
             //unitychanのz軸方向位置を取得
             float unitychanPosZ = this.unitychan.transform.position.z;
 
-            if (40 + i * 15 >= unitychanPosZ && unitychanPosZ <= 40.1 + i * 15)
+            //ここがわからんif (40 + i * 15 >= unitychanPosZ && unitychanPosZ <= 40.1 + i * 15)
             {
                 //どのアイテムを出すのかをランダムに設定
                 int num = Random.Range(1, 15);
