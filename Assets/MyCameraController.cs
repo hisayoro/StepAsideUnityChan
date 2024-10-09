@@ -27,7 +27,7 @@ public class MyCameraController : MonoBehaviour
     {
         //Unity‚¿‚á‚ñ‚ÌˆÊ’u‚É‡‚í‚¹‚ÄƒJƒƒ‰‚ÌˆÊ’u‚ğˆÚ“®
         this.transform.position = new Vector3(
-            0,
+            this.transform.position.x,
             this.transform.position.y,
             this.unitychan.transform.position.z - difference);
 
